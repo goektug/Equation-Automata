@@ -1,5 +1,5 @@
 # Equation Automata is developed by Goktug Islamoglu
-# goktug.islamoglu@cibss.uni-freiburg.de
+# goktugislamoglu@gmail.com
 #
 # Equation Automata uses
 # PyCX 0.3 Realtime Visualization Template
@@ -211,3 +211,4 @@ def step():
 import pycxsimulator
 pycxsimulator.GUI(title='My Simulator', interval=0,
                   parameterSetters=[]).start(func=[init, draw, step])
+
