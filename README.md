@@ -1,6 +1,16 @@
 # Equation-Automata
 Without any mathematical functions, a cellular automaton outputs the graph of tan<sup>2</sup>(x) + tan(x)
 
+## What is this?
+A 2D binary cellular automaton with Moore and von Neumann neighborhood rules, initialized at the 2D Ising critical probability.
+
+## What does it do that is surprising?
+It outputs tan²(x) + tan(x) — exact trigonometry — with no trig functions anywhere in the code. No sin, cos or tan exists within the code.
+
+## Why does that matter? 
+Because π/8 encodes the 2D Ising critical temperature via the double-angle identity, meaning the automaton has spontaneously recovered exact known physics from simple local rules.
+
+## Requirements
 The code requires PyCX Simulator to run, which can be downloaded from: https://github.com/hsayama/PyCX
 
 ## Derivation of Tangent Equation
