@@ -1,4 +1,6 @@
 # Equation Automata
+
+This code contains no trigonometric functions. It imports numpy and matplotlib. It defines a grid, counts neighbors, and applies integer comparison rules. When you run it, it prints the graph of tan²(x) + tan(x). This is not a coincidence or a hidden import — it is a consequence of the geometry of the square lattice and the Ising criticality condition, derived below.
  
 A 2D binary cellular automaton with no trigonometric functions recovers the exact critical temperature of the 2D Ising model and implements its stereographic projection onto the 1D linear Ising chain. The projection is mediated by the Gudermannian function:
  
@@ -22,7 +24,8 @@ where `g` is the Moore neighbor count and `p` is the initial cell density. Setti
 p² - p + 1/8 = 0
 p = 1/2 ± 1/(2√2)
 ```
- 
+
+At this point no trigonometry has appeared anywhere — only an integer neighbor count, a probability, and a quadratic equation. The trigonometry emerges from the double angle identity applied to the roots. 
 The two roots are exactly:
  
 ```
@@ -42,7 +45,7 @@ Since cos(π/4) = sin(π/4), this is simultaneously the double angle identity:
 cos²(π/8) - sin²(π/8) = 2·sin(π/8)·cos(π/8)
 ```
  
-Generalizing: `a·cos²(x) - b·sin²(x) = sin(x)·cos(x)` with a = b = 1/2 gives:
+General equation is: `a·cos²(x) - b·sin²(x) = sin(x)·cos(x)`, following above and substituting with a = b = 1/2 gives:
  
 ```
 (1/2)·cos(2x) = (1/2)·sin(2x)
@@ -50,7 +53,7 @@ tan(2x) = 1
 x = π/8
 ```
  
-Dividing by cos²(x):
+Dividing the generalized equation by cos²(x):
  
 ```
 b·tan²(x) + tan(x) - a = 0
