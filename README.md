@@ -112,8 +112,8 @@ The threshold integer in the Moore/von Neumann competition rule controls the dep
 | Threshold | Highest cell count | Nature |
 |---|---|---|
 | < 6 | 2/Kc ≈ 0.881 (inverse Ising critical temperature) | Critical — recovers 2D Ising |
-| = 6 | σ(1/√2) ≈ 0.6697 | Second-order transition — geometric frustration |
-| > 6 | No fixed point | Non-critical — projection fails |
+| = 6 | σ(1/√2) ≈ 0.6697 | Ising critical temperature outputs same number of cells with state 1 = Second-order transition — geometric frustration |
+| > 6 | Ising critical temperature input does not match the output | Non-critical — projection fails |
  
 The threshold integer **6** is the last value sustaining criticality. It sits at the geometric boundary between Moore (8 neighbors) and von Neumann (4 neighbors) neighborhoods: 6/9 occupied cells force adjacency by the pigeonhole principle, magnetizing the neighborhood. This is the discrete stereographic pole — the point from which the 2D→1D projection is cast.
  
