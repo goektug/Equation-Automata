@@ -156,7 +156,7 @@ The critical attractor plot maps directly onto the magnetic susceptibility curve
 - **Paramagnetic response** — the inverse Ising critical temperature Kc ≈ 0.4407 (second-order transition)
 - **Ferrimagnetic response** — the upper fixed point cos²(π/8) ≈ 0.8536 (first-order boundary)
 - **Antiferromagnetic response** — the lower fixed point sin²(π/8) ≈ 0.1464 (first-order boundary)
-<img width="566" height="918" alt="Tangent Function Output" src="https://github.com/user-attachments/assets/ab2fdbd2-cd67-420a-aa85-c0507270aaa5" />
+![Tangent Function Output](https://github.com/user-attachments/assets/ab2fdbd2-cd67-420a-aa85-c0507270aaa5)
  
 The critical and non-critical values correspond to the arms of the tan²(x) + tan(x) graph, confirmed by Wolfram Alpha:
  
