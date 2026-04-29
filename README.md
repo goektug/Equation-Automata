@@ -122,6 +122,7 @@ At threshold = 6, the system retains criticality in a precise sense: the number 
 Above threshold 6 this equality breaks. The inverse Ising critical temperature initialization no longer produces the same cell count as the natural attractor. The two come apart, the fixed point dissolves, and criticality is lost entirely. The count1 agreement at threshold = 6 is therefore not incidental — it is the precise condition that separates the critical regime from the non-critical one.
 
 The two first-order phase transitions at sin²(π/8) ≈ 0.1464 and cos²(π/8) ≈ 0.8536 flank the second-order transition at σ(1/√2) ≈ 0.6697, giving a three-phase structure analogous to the Blume-Emery-Griffiths model.
+
 ---
  
 ## The Closed Cycle
