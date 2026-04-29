@@ -106,21 +106,22 @@ When sin(x) > 1 causes a range error in the circular picture, the Gudermannian p
 ---
  
 ## Phase Diagram
- 
+
 The threshold integer in the Moore/von Neumann competition rule controls the depth of the Boltzmann self-consistency iteration:
- 
+
 | Threshold | Highest cell count | Nature |
 |---|---|---|
 | < 6 | 2/Kc ≈ 0.881 (inverse Ising critical temperature) | Critical — recovers 2D Ising |
-| = 6 | σ(1/√2) ≈ 0.6697 | Inverse Ising critical temperature outputs same number of cells with state 1 = Second-order transition — geometric frustration |
-| > 6 | Ising critical temperature input does not match the output | Non-critical — projection fails |
- 
-The threshold integer **6** is the last value sustaining criticality. It sits at the geometric boundary between Moore (8 neighbors) and von Neumann (4 neighbors) neighborhoods: 6/9 occupied cells force adjacency by the pigeonhole principle, magnetizing the neighborhood. This is the discrete stereographic pole — the point from which the 2D→1D projection is cast. 
+| = 6 | σ(1/√2) ≈ 0.6697 | Second-order transition — geometric frustration |
+| > 6 | No fixed point | Non-critical — projection fails |
 
-The count1, or number of cells with state 1, is almost the same when initial probability p is at the inverse Ising critical temperature.
- 
-The two first-order phase transitions at sin²(π/8) ≈ 0.1464 and cos²(π/8) ≈ 0.8536 flank a second-order transition at σ(1/√2) ≈ 0.6697, giving a three-phase structure analogous to the Blume-Emery-Griffiths model.
- 
+The threshold integer **6** is the last value sustaining criticality. It sits at the geometric boundary between Moore (8 neighbors) and von Neumann (4 neighbors) neighborhoods: 6/9 occupied cells force adjacency by the pigeonhole principle, magnetizing the neighborhood. This is the discrete stereographic pole — the point from which the 2D→1D projection is cast.
+
+At threshold = 6, the system retains criticality in a precise sense: the number of cells with state 1 is the same whether the system is initialized at the inverse Ising critical temperature or allowed to evolve freely to its natural attractor. This equality of cell counts is the diagnostic signature of the second-order transition — the system cannot distinguish its critical initialization from its critical output.
+
+Above threshold 6 this equality breaks. The inverse Ising critical temperature initialization no longer produces the same cell count as the natural attractor. The two come apart, the fixed point dissolves, and criticality is lost entirely. The count1 agreement at threshold = 6 is therefore not incidental — it is the precise condition that separates the critical regime from the non-critical one.
+
+The two first-order phase transitions at sin²(π/8) ≈ 0.1464 and cos²(π/8) ≈ 0.8536 flank the second-order transition at σ(1/√2) ≈ 0.6697, giving a three-phase structure analogous to the Blume-Emery-Griffiths model.
 ---
  
 ## The Closed Cycle
