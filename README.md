@@ -8,7 +8,7 @@ A 2D binary cellular automaton with no trigonometric functions recovers the exac
  
 This is Onsager's self-dual condition expressed as a single equation. The automaton outputs this identity numerically through simple neighborhood counting rules, with no mathematics beyond integer comparisons in the code.
 
-A treatise into 3D Ising Model is delved at the [3D result](https://github.com/goektug/Equation-Automata-3D).
+A treatise of Equation Automata 3D Ising Model is delved into at the [3D result](https://github.com/goektug/Equation-Automata-3D).
  
 ---
  
