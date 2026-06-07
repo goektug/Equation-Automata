@@ -1,5 +1,7 @@
 # Equation Automata
 
+[Animation of Criticality](https://goektug.github.io/animations/equation-automata.html)
+
 This code contains no trigonometric functions. It imports numpy and matplotlib. It defines a grid, counts neighbors, and applies integer comparison rules. When you run it, it prints the graph of tan²(x) + tan(x). This is not a coincidence or a hidden import — it is a consequence of the geometry of the square lattice and the Ising criticality condition, derived below.
  
 A 2D binary cellular automaton with no trigonometric functions recovers the exact critical temperature of the 2D Ising model and implements its stereographic projection onto the 1D linear Ising chain. The projection is mediated by the Gudermannian function:
